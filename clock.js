@@ -26,6 +26,7 @@ function chaloBhai(){
     let hours1 = hours;
     if (hours > 12){
         hours1 = hours -12;
+        document.getElementById("mini4").innerHTML = "PM";
     }
 
     function ckeck10(element){
