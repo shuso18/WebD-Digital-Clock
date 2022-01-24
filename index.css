@@ -105,6 +105,22 @@ body {
 .clock .number10 { --rotation: 300deg}
 .clock .number11 { --rotation: 330deg}
 
+.numin {
+    --rotation: 0deg;
+    transform: rotate(var(--rotation));
+}
+
+.num1  {--rotation: -30deg;}
+.num2  {--rotation: -60deg;}
+.num3  {--rotation: -90deg;}
+.num4  {--rotation: -120deg;}
+.num5  {--rotation: -150deg;}
+.num6  {--rotation: -180deg;}
+.num7  {--rotation: -210deg;}
+.num8  {--rotation: -240deg;}
+.num9  {--rotation: -270deg;}
+.num10 {--rotation: -300deg;}
+.num11 {--rotation: -330deg;}
 
 
 /* HANDS  */
